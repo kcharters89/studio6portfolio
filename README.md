@@ -6,3 +6,8 @@ Date: 23/02/21
 - fix sign up after figuring out why it wasnt woking
   - this means adding password strength, and captach
 - added Rebecca to firebase project so she can do database stuff if she feels like it.
+
+### Done
+- added Rebecca to firebase project
+-  added password strength meter
+-  
