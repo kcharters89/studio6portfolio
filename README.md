@@ -21,7 +21,19 @@ Date 16/03/2012
 
 ### Todo
 - host site on firebase
+ [partial deploys](https://firebase.google.com/docs/cli/#partial_deploys) When initialising firebase i added database in for future use, so when using ```firebase deploy``` command it tried to do the database which caused an error as there is no database or rules currently 
+so now use 
+```
+firebase deploy --only hosting 
+```
+In firebase.json file in hosting change "public": "public" to "public": "dist" as firebase changes the public/inex.html file and causes errors 
+
+hosted [here](https://ecommerceapp-e526f.web.app)
+
 - add google recaptcha to sign up
+
 - add google recaptcha to contact
+
 - get rebecca's modal code and add to sign up 
+
 
