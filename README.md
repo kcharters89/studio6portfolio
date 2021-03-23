@@ -4,7 +4,7 @@ Date: 23/02/21
 
 ### Done
 - added Rebecca to firebase project
--  added password strength meter from [here](https://www.npmjs.com/package/vue-password-strength-meter). added html pattern to required password so password min requirements will work on all browsers. 
+- added password strength meter from [here](https://www.npmjs.com/package/vue-password-strength-meter). added html pattern to required password so password min requirements will work on all browsers. 
 ```
  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 ```
@@ -19,7 +19,7 @@ barriers:
 
 Date 16/03/2012
 
-### Todo
+### Done
 - host site on firebase
  [partial deploys](https://firebase.google.com/docs/cli/#partial_deploys) When initialising firebase i added database in for future use, so when using ```firebase deploy``` command it tried to do the database which caused an error as there is no database or rules currently 
 so now use 
@@ -34,6 +34,9 @@ hosted [here](https://ecommerceapp-e526f.web.app)
 
 - add google recaptcha to contact
 
-- get rebecca's modal code and add to sign up 
+### Todo
+- use rebeccas modal code for sign up and login.
+- some design and colour features
+- documentation clean up 
 
 
