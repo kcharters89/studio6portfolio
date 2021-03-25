@@ -13,8 +13,6 @@ Date: 23/02/21
 -  fixed sign up and login with [this](https://blog.logrocket.com/vue-firebase-authentication/) tutorial and [this](https://dev.to/gautemeekolsen/vue-guard-routes-with-firebase-authentication-f4l) 
 
 
-barriers:
-
 ## Sprint 2
 
 Date 16/03/2012
@@ -33,9 +31,13 @@ hosted [here](https://ecommerceapp-e526f.web.app)
 - add google recaptcha to sign up
 
 - add google recaptcha to contact
+- fixed auth so a certain page can only be accessed when logged in 
 
 ### Todo
 - use rebeccas modal code for sign up and login.
 - looking into and testing firebase realtime database
 
 
+## Sprint 3
+- set up data base and start populating the shop
+- 
