@@ -10,7 +10,7 @@ Date: 23/02/21
 ```
 -  added .env files for production and build to keep our keys secret 
 -  started google captcha but it needs a domain for api key so the site needs to be hosted first. 
--  fixed sign up and login with [this](https://blog.logrocket.com/vue-firebase-authentication/) tutorial.
+-  fixed sign up and login with [this](https://blog.logrocket.com/vue-firebase-authentication/) tutorial and [this](https://dev.to/gautemeekolsen/vue-guard-routes-with-firebase-authentication-f4l) 
 
 
 barriers:
@@ -36,7 +36,6 @@ hosted [here](https://ecommerceapp-e526f.web.app)
 
 ### Todo
 - use rebeccas modal code for sign up and login.
-- some design and colour features
-- documentation clean up 
+- looking into and testing firebase realtime database
 
 
