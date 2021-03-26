@@ -33,6 +33,11 @@ hosted [here](https://ecommerceapp-e526f.web.app)
 - add google recaptcha to contact
 - fixed auth so a certain page can only be accessed when logged in 
 
+Made some color palettes to go with the coffe image that was used a couple times, and giving us a bit more of direction by selling coffee related items.
+![alt](https://i.ibb.co/xMDCHGH/coffeepalette1.png)
+![alt](https://i.ibb.co/gD4Dhny/coffeepalette2.png)
+Hopefully with a bit of direction it will help us get the database and items up and running with a theme in mind. (that and the designs at the moment everything has a different color)
+
 ### Todo
 - use rebeccas modal code for sign up and login.
 - looking into and testing firebase realtime database
