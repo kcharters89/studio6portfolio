@@ -24,7 +24,7 @@ so now use
 ```
 firebase deploy --only hosting 
 ```
-In firebase.json file in hosting change "public": "public" to "public": "dist" as firebase changes the public/inex.html file and causes errors 
+In firebase.json file in hosting change "public": "public" to "public": "dist" as firebase changes the public/index.html file and causes errors 
 
 hosted [here](https://ecommerceapp-e526f.web.app)
 
@@ -34,7 +34,6 @@ hosted [here](https://ecommerceapp-e526f.web.app)
 - fixed auth so a certain page can only be accessed when logged in 
 
 Made some color palettes to go with the coffe image that was used a couple times, and giving us a bit more of direction by selling coffee related items.
-![alt](https://i.ibb.co/xMDCHGH/coffeepalette1.png)
 ![alt](https://i.ibb.co/gD4Dhny/coffeepalette2.png)
 Hopefully with a bit of direction it will help us get the database and items up and running with a theme in mind. (that and the designs at the moment everything has a different color)
 
@@ -44,9 +43,12 @@ Hopefully with a bit of direction it will help us get the database and items up 
 
 
 ## Sprint 3
+### Todo
 - set up data base and start populating the shop
-- firebase json 
-- Decided to go with firebase realtime database. Started emaking example json files to show rebecca so we can make a whole json file together
+- firebase database example rules [here](https://medium.com/@juliomacr/10-firebase-realtime-database-rule-templates-d4894a118a98)
+### Done
+- firebase json file 
+- Decided to go with firebase realtime database. Started making example json files to show rebecca so we can make a whole json file together
 ```
 {
     "products": [
@@ -131,5 +133,5 @@ Hopefully with a bit of direction it will help us get the database and items up 
 ```
 we could even take this further but seperating accessesories into pins, totes and stickers, clothing into hoodies and tshirts etc.
 
-- firebase database example rules [here](https://medium.com/@juliomacr/10-firebase-realtime-database-rule-templates-d4894a118a98)
+
 - 
