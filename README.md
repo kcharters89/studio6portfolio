@@ -43,6 +43,7 @@ Hopefully with a bit of direction it will help us get the database and items up 
 
 
 ## Sprint 3
+Date: 29/03/21
 ### Todo
 - set up data base and start populating the shop
 - firebase database example rules [here](https://medium.com/@juliomacr/10-firebase-realtime-database-rule-templates-d4894a118a98)
