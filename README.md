@@ -46,5 +46,90 @@ Hopefully with a bit of direction it will help us get the database and items up 
 ## Sprint 3
 - set up data base and start populating the shop
 - firebase json 
+- Decided to go with firebase realtime database. Started emaking example json files to show rebecca so we can make a whole json file together
+```
+{
+    "products": [
+        {
+         "accessories": [
+                {
+                    "id": 1,
+                    "name": "4 set Pins",
+                    "description": "Set of four assorted coffee enamel pins ",
+                    "price": 9.00,
+                    "url": "https://ae01.alicdn.com/kf/Ha066cc1143de4622959ea599037f0078f/4pcs-set-Enamel-Pins-for-Backpack-Typewriter-Audio-Tape-Mood-Potion-Brooches-Badges-Fashion-Pin-Jewelry.jpg_640x640.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Sticker Set",
+                    "description": "Set coffee themed stickers ",
+                    "price": 9.00,
+                    "url": "https://ae01.alicdn.com/kf/H8eb7843b19ae4f1798c7712f80371bb9P/46pcs-lot-Vintage-Coffee-Drinks-Stickers-Scrapbooking-Diary-Stickers-Travel-Decorative-Planner-DIY-Crafts-Stationery-Stickers.jpg_Q90.jpg_.webp"
+                },
+                {
+                    "id": 3,
+                    "name": "Tote Bag",
+                    "description": "Coffee Themed Tote Bag ",
+                    "price": 9.00,
+                    "url": "https://ae01.alicdn.com/kf/Hf299557b526048b88e465c1457b0d559V/Cute-Fashion-Shoulder-Bag-Drinking-Juice-Coffee-Print-Harajuku-Girl-Casual-Tote-Bag-Fun-Summer-Shopper.jpg_Q90.jpg_.webp"
+                }
+            ],
+            "homeware":[
+                {
+                    "id": 1,
+                    "name": "Cat coffee mug",
+                    "description": " Cat Themed coffee mug ",
+                    "price": 9.00,
+                    "url": "https://ae01.alicdn.com/kf/HTB1g4g8XjnuK1RkSmFPq6AuzFXa8/VFGTERTE-1PC-420ml-Lovely-White-Black-Cat-Coffee-Milk-Light-Ceramic-Lovers-Mug-Couples-Cup-for.jpg_Q90.jpg_.webp"
+                }
+
+            ],
+            "clothing":[
+                {
+                    "womens":[
+                        {
+                            "id": 1,
+                            "name": "Womens T-shirt",
+                            "description": " Womens print coffee tshirt ",
+                            "price": 9.00,
+                            "size":["small","medium","large","Xlarge"],
+                            "url": "https://ae01.alicdn.com/kf/HTB1h9ifUSzqK1RjSZFpq6ykSXXam/Ok-but-First-Coffee-Funny-Women-T-shirts-Summer-Harajuku-Plus-Size-Short-Sleeve-White-Black.jpg_Q90.jpg_.webp"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Womens Hoodie",
+                            "description": "Womens sloth print hoodie ",
+                            "price": 9.00,
+                            "size":["small","medium","large","Xlarge"],
+                            "url": "https://ae01.alicdn.com/kf/He22671abc69443b9b50fd85ef14541dcg/Sloth-Hiding-In-Quilt-And-Coffee-Print-Hoody-Women-Street-Fashion-Hoodie-With-Hood-Women-S.jpg_Q90.jpg_.webp"
+                        }
+                    ],
+                    "Mens":[
+                        {
+                            "id": 1,
+                            "name": "Mens Tshirt",
+                            "description": "Mens print coffee tshirt ",
+                            "price": 9.00,
+                            "size":["small","medium","large","Xlarge"],
+                            "url": "https://ae01.alicdn.com/kf/Hea1759454a5b419db8d32d8c550f9efaE/Science-Project-Programmer-IT-Men-Tshirt-I-Turn-Coffee-Into-Code-MasterCam-Program-Faddish-Breathable-Cotton.jpg_Q90.jpg_.webp"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Mens Hoodie",
+                            "description": "Mens print coffee hoodie ",
+                            "price": 9.00,
+                            "size":["small","medium","large","Xlarge"],
+                            "url": "https://ae01.alicdn.com/kf/H84f071af56824ffa93fdf6f2d6590a5dk/Morning-Cat-Hip-Hop-Coffee-Cat-Print-Mens-Clothes-Autumn-Oversized-Hoodie-Streetwear-Harajuku-Sweatshirt-Spring.jpg_Q90.jpg_.webp"
+                        }
+                    ]
+                }
+            ]
+            
+        }
+    ]
+}
+```
+we could even take this further but seperating accessesories into pins, totes and stickers, clothing into hoodies and tshirts etc.
+
 - firebase database example rules [here](https://medium.com/@juliomacr/10-firebase-realtime-database-rule-templates-d4894a118a98)
 - 
