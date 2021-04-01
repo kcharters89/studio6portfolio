@@ -135,4 +135,5 @@ Date: 29/03/21
 we could even take this further but seperating accessesories into pins, totes and stickers, clothing into hoodies and tshirts etc.
 
 
-- 
+- Login and Sign up boostrap modals now work with firbase authentication and link to the shop page
+
