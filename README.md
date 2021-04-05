@@ -137,3 +137,5 @@ we could even take this further but seperating accessesories into pins, totes an
 
 - Login and Sign up boostrap modals now work with firbase authentication and link to the shop page
 
+- added the database items using vuefire plugin and a couple of tutorials and stack overflow 
+![](https://i.ibb.co/2sw2Vdt/json-file-to-site.png)
