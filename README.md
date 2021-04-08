@@ -139,3 +139,5 @@ we could even take this further but seperating accessesories into pins, totes an
 
 - added the database items using vuefire plugin and a couple of tutorials and stack overflow 
 ![](https://i.ibb.co/2sw2Vdt/json-file-to-site.png)
+we used visual studio live share to collaborate in a single page 
+![](https://i.ibb.co/kQ4kB4f/using-live-share-to-collab-instantly.png)
