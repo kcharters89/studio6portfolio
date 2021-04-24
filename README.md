@@ -144,5 +144,5 @@ we used visual studio live share to collaborate in a single page
 
 ### Sprint 4
 
-I was having trouble with firebase real time set up and crud, it seemed like the simplest to set up but most tutorials are on the new firestore database, I used this [tutorial](https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57) to import our json file to firestore.
+I was having trouble with firebase real time set up and crud, it seemed like the simplest to set up but most tutorials are on the new firestore database, I used this [tutorial](https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57) to import our json file to firestore. I left the realtime database code on the products page as we only need to read that data, and the CRUD firestore on the admin products. 
 
