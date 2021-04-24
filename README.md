@@ -141,3 +141,8 @@ we could even take this further but seperating accessesories into pins, totes an
 ![](https://i.ibb.co/2sw2Vdt/json-file-to-site.png)
 we used visual studio live share to collaborate in a single page 
 ![](https://i.ibb.co/kQ4kB4f/using-live-share-to-collab-instantly.png)
+
+### Sprint 4
+
+I was having trouble with firebase real time set up and crud, it seemed like the simplest to set up but most tutorials are on the new firestore database, I used this [tutorial](https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57) to import our json file to firestore.
+
