@@ -144,5 +144,12 @@ we used visual studio live share to collaborate in a single page
 
 ### Sprint 4
 
-I was having trouble with firebase real time set up and crud, it seemed like the simplest to set up but most tutorials are on the new firestore database, I used this [tutorial](https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57) to import our json file to firestore. I left the realtime database code on the products page as we only need to read that data, and the CRUD firestore on the admin products. 
-using keep alive for nested component render [tutorial](https://learnvue.co/2019/12/an-overview-of-vue-keep-alive/#:~:text=This%20means%20that%20Vue%20does,show%20up%20as%20a%20component.)
+I was having trouble with firebase realtime set up and crud, it seemed like the simplest to set up but most tutorials are on the new firestore database, I used this [tutorial](https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57) to import our json file to firestore. 
+![](https://i.ibb.co/SKQLshn/firestorecollections.png)
+![](https://i.ibb.co/cvqVnrR/importjsoncodetofirestore.png)
+
+I left the realtime database code on the products page as we only need to read that data, and the CRUD firestore on the admin products. 
+
+I was tring to use nested routes to render child components inside a parent component but i didnt get it to completely work yet
+![](https://i.ibb.co/pfFLSyn/nested-routes.png)
+
