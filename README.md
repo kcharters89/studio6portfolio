@@ -150,7 +150,7 @@ I was having trouble with firebase realtime set up and crud, it seemed like the 
 
 I left the realtime database code on the products page as we only need to read that data, and the CRUD firestore on the admin products. 
 
-I was tring to use nested routes to render child components inside a parent component but i didnt get it to completely work yet
+I  used nested routes to render child components inside a parent component 
 
 ![](https://i.ibb.co/pfFLSyn/nested-routes.png)
 
