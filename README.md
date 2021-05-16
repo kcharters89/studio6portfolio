@@ -160,11 +160,13 @@ this [tutorial](https://www.positronx.io/vue-js-firebase-build-vue-crud-app-with
 
 and logging in with the admin account now shows an admin button, as i couldnt find a way of having only having the admin login page to access the admin section. I made a work around using the admin user UID adding it to the env file and then comparing it to the current user uid, if they matched an admin button will show.
 this however doesnt stop people from adding /admin to the url and will need further research into authentication and firebase rules.
+Their were ways to use firebase funtions, but i would have to pay for a firebase account upgrade. 
 
 In hind sight i have used a lot of repeating code to access all the different collections stored on the firebase firestore database, If I have time I will try to condense this code so it itsnt so repetative. 
 
 ### Sprint 6
 
 - search
+ - pay for firebase to use functions and angola ? (then use functions for login as well>)
 - sort 
 - pwa 
