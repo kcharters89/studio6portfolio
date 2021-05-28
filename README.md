@@ -170,3 +170,6 @@ In hind sight i have used a lot of repeating code to access all the different co
  - pay for firebase to use functions and angola ? (then use functions for login as well>)
 - sort 
 - pwa 
+I only did reasearch for searching in this sprint as i started a junior developer job, that also does ecommerce sites and helps companies with automating business task, using asp.net and asp.net core. 
+
+### Sprint 7
