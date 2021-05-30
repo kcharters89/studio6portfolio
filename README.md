@@ -170,6 +170,10 @@ In hind sight i have used a lot of repeating code to access all the different co
  - pay for firebase to use functions and angola ? (then use functions for login as well>)
 - sort 
 - pwa 
+- <br/>
 I only did reasearch for searching in this sprint as i started a junior developer job, that also does ecommerce sites and helps companies with automating business task, using asp.net and asp.net core. 
 
 ### Sprint 7
+Upgraded my firebase to a pay as you go account to use functions and angolia for full text search. 
+next sprint i will change the admin login to use functions now that the firebase account is upgraded
+
