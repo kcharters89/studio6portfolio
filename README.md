@@ -180,3 +180,7 @@ next sprint i will change the admin login to use functions now that the firebase
 Added Algolia Search, uploaded our json file to the index, and used widgets to create a search page with vue-instant- search
 [Docs](https://www.algolia.com/doc/) [Instant Search with widgets](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/vue/) 
 ![algolia-settings](https://i.ibb.co/dGj91Ft/algolia.png)
+
+### Sprint 8 The finale
+
+This sprint I decided to do all the niggly little tidy up bits, buttons that didnt go anywhere now do, a about us and faq page, admin section tidy up and checking the site is responsive
